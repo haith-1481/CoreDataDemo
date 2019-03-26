@@ -15,6 +15,9 @@
 		2C3CE6F52249CF5200649071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3CE6F32249CF5200649071 /* LaunchScreen.storyboard */; };
 		2C3CE7002249CF5200649071 /* CoreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CE6FF2249CF5200649071 /* CoreDataDemoTests.swift */; };
 		2C3CE70B2249CF5200649071 /* CoreDataDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CE70A2249CF5200649071 /* CoreDataDemoUITests.swift */; };
+		2C3CE7192249D04D00649071 /* CatManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CE7182249D04D00649071 /* CatManageViewController.swift */; };
+		2C3CE71B224A04FE00649071 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CE71A224A04FE00649071 /* DatabaseManager.swift */; };
+		2C3CE71D224A0C2800649071 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CE71C224A0C2700649071 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		2C3CE7062249CF5200649071 /* CoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3CE70A2249CF5200649071 /* CoreDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoUITests.swift; sourceTree = "<group>"; };
 		2C3CE70C2249CF5200649071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3CE7182249D04D00649071 /* CatManageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatManageViewController.swift; sourceTree = "<group>"; };
+		2C3CE71A224A04FE00649071 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		2C3CE71C224A0C2700649071 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		2C3CE6DB2249CF4F00649071 = {
 			isa = PBXGroup;
 			children = (
+				2C3CE71C224A0C2700649071 /* Person.swift */,
+				2C3CE71A224A04FE00649071 /* DatabaseManager.swift */,
 				2C3CE6E62249CF4F00649071 /* CoreDataDemo */,
 				2C3CE6FE2249CF5200649071 /* CoreDataDemoTests */,
 				2C3CE7092249CF5200649071 /* CoreDataDemoUITests */,
@@ -102,6 +110,7 @@
 				2C3CE6E72249CF4F00649071 /* AppDelegate.swift */,
 				2C3CE6E92249CF4F00649071 /* ViewController.swift */,
 				2C3CE6EB2249CF4F00649071 /* Main.storyboard */,
+				2C3CE7182249D04D00649071 /* CatManageViewController.swift */,
 				2C3CE6F12249CF5200649071 /* Assets.xcassets */,
 				2C3CE6F32249CF5200649071 /* LaunchScreen.storyboard */,
 				2C3CE6F62249CF5200649071 /* Info.plist */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C3CE71D224A0C2800649071 /* Person.swift in Sources */,
+				2C3CE7192249D04D00649071 /* CatManageViewController.swift in Sources */,
 				2C3CE6EA2249CF4F00649071 /* ViewController.swift in Sources */,
+				2C3CE71B224A04FE00649071 /* DatabaseManager.swift in Sources */,
 				2C3CE6F02249CF4F00649071 /* CoreDataDemo.xcdatamodeld in Sources */,
 				2C3CE6E82249CF4F00649071 /* AppDelegate.swift in Sources */,
 			);

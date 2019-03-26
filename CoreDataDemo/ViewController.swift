@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var phoneNoTextField: UITextField!
+    @IBOutlet weak var tableView: UITableView!
+
+    var userList = [Persons]()
+
+    @IBAction func addPerson(_ sender: Any) {
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
 
